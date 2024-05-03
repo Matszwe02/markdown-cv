@@ -1,0 +1,7 @@
+services:
+ markdown-cv:
+    build: .
+    ports:
+      - "4000:4000"
+    volumes:
+      - /path/to/index.md:/app/index.md
